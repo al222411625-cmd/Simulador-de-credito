@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  color: #003b73;
+  color: #0337e4;
   text-align: center;
   margin-bottom: 25px;
 }
@@ -31,20 +31,20 @@ form {
 label {
   font-weight: 600;
   align-self: center;
-  color: #4a5568;
+  color: #a053d7;
 }
 
 input, select, button {
   padding: 10px;
-  border: 1px solid #cbd5e0;
+  border: 1px solid #05a6ca;
   border-radius: 4px;
   font-size: 14px;
 }
 
 button {
   grid-column: span 2;
-  background-color: #003b73;
-  color: white;
+  background-color: #d90171;
+  color: rgb(6, 237, 198);
   font-weight: bold;
   cursor: pointer;
   border: none;
@@ -63,20 +63,20 @@ table {
 }
 
 th, td {
-  border: 1px solid #e2e8f0;
+  border: 1px solid #a000c0;
   padding: 10px;
   text-align: right;
   font-size: 13px;
 }
 
 th {
-  background-color: #003b73;
+  background-color: #6027d1;
   color: white;
   text-align: center;
 }
 
 tr:nth-child(even) {
-  background-color: #f7fafc;
+  background-color: #2debb2;
 }
 
 td:first-child {
