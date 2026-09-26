@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -10,7 +9,18 @@
 <body>
   <div class="container">
     <h1>Simulador de Crédito Personal el Inge</h1>
+
     <form id="credit-form">
+
+      <!-- Nombre del usuario -->
+      <label for="nombre">Nombre del usuario:</label>
+      <input 
+        type="text" 
+        id="nombre" 
+        placeholder="Escribe tu nombre" 
+        required
+      >
+
       <label for="monto">Monto del Crédito Solicitado ($):</label>
       <input type="number" id="monto" value="150000" required>
       
@@ -25,7 +35,9 @@
         <option value="48" selected>48 meses</option>
       </select>
 
-      <button type="button" id="btn-calcular">Calcular Amortización</button>
+      <button type="button" id="btn-calcular">
+        Calcular Amortización
+      </button>
     </form>
 
     <!-- Tabla para renderizar los resultados de amortización -->
@@ -41,6 +53,7 @@
           <th>Saldo Final</th>
         </tr>
       </thead>
+
       <tbody>
         <!-- Filas generadas dinámicamente mediante JavaScript -->
       </tbody>
